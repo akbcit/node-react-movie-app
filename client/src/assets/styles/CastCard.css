@@ -1,0 +1,45 @@
+.actor-card {
+  height: 330px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container-actor {
+  height: 240px;
+  width: 160px;
+  position: relative;
+}
+
+.actor-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.actor-name,
+.actor-character {
+    font-size: medium;
+  color: white;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.actor-card.loading .actor-image {
+  display: none;
+}
+
+.actor-card:hover {
+  transform: scale(1.05);
+}
+
+.skeleton {
+  border-radius: 5px;
+}

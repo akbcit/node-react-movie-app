@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Oswald:wght@200&family=Viga&display=swap");
+
+#movie-page {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.overlay {
+  min-width: 90vw;
+  min-height: 90vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+#moviepage-title {
+  margin-top: 10px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#moviepage-main {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+#moviepage-overview {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-size: xx-large;
+  font-family: "Oswald", sans-serif;
+  width: 600px;
+  margin: 10px;
+}
+
+#moviepage-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:15px;
+}
+
+#genre-chips {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#moviepage-rating{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap:3px;
+}
+
+#moviepage-rating-details{
+    color: white;
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    gap:3px;
+}
+
+#castcards-grid{
+  margin: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+}

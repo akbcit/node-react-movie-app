@@ -1,0 +1,34 @@
+{
+  "name": "movie-project-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "readCSV": "node utils/readCSV.js",
+    "batchifyJSON": "node utils/batchifyJSON.js",
+    "embedNextBatch": "node utils/embedNextBatch.js",
+    "saveNextBatchToMongo": "node utils/saveNextBatchToMongo"
+  },
+  "author": "aditya",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "langchain": "^0.0.213",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

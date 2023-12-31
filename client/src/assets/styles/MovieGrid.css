@@ -1,0 +1,14 @@
+#movie-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+#movie-grid-movies {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 12px; 
+}

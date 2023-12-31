@@ -1,0 +1,15 @@
+# .gitignore
+
+# Ignore environment variables file
+.env
+
+# Ignore Node.js modules
+node_modules/
+
+data/movies.json
+
+data/Movies after 2020.csv
+
+data/Movies after 2020.xlsx
+
+data/batched_movies.json

@@ -1,0 +1,36 @@
+.main-nav {
+  background-image: none;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+#nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between; /* Adjusts the space evenly */
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+li {
+  display: flex;
+  gap: 10px;
+}
+
+#nav-list a {
+  color: #ffff;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+#nav-list a:hover,
+#nav-list a:focus {
+  color: #cccccc;
+  text-decoration: underline;
+}
+
+p{
+  color: #cccccc;
+}
